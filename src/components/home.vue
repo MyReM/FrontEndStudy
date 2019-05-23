@@ -15,7 +15,7 @@
           <img src="../../static/images/zero.jpg" />
         </a>
         <a href="#">
-          <img src="../../static/images/glory.jpg" />
+          <img src="../../static/images/luna1.jpg"/>
         </a>
       </div>
       <ul>

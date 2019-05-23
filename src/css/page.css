@@ -26,7 +26,7 @@
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	background-color: rgba(127,110,127,.6);
+	background-color: rgba(0,0,0,.5);
 }
 /* 顶部导航栏li */
 .nav-ul li {
@@ -46,7 +46,7 @@
 .nav-ul li a:hover {
 	border-bottom: 0.2rem solid moccasin;
 	text-decoration: none;
-	color: #2C3E50;
+	color: lightblue;
 }
 /* 点击后样式 */
 .nav-ul-li-a-visited{
