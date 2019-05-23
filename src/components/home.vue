@@ -26,6 +26,22 @@
         <li></li>
       </ul>
     </div>
+    <div class="little-title">
+      <span>猜你·喜欢</span>
+    </div>
+    <div class="content-div">neirong</div>
+    <div class="little-title">
+      <span>火力·全开</span>
+    </div>
+    <div class="content-div">neirong</div>
+    <div class="little-title">
+      <span>推荐·热门</span>
+    </div>
+    <div class="content-div">neirong</div>
+    <div class="little-title">
+      <span>人气·新奇</span>
+    </div>
+    <div class="content-div">neirong</div>
   </div>
 </template>
 
@@ -86,5 +102,5 @@
 </script>
 
 <style>
-  @import url("../css/home.css");
+  @import url("../css/home.css")
 </style>
