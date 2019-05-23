@@ -1,0 +1,58 @@
+/* 主内容模块 */
+.containerp {
+	width: 100%;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+/* 顶部导航栏nav */
+.navbar {
+	padding: 0 0 0 0;
+	width: 100%;
+	z-index: 999;
+}
+/* 顶部导航栏div */
+.heade_menu {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+/* 顶部导航栏ul */
+.nav-ul {
+	display: table;
+	width: 100%;
+	height: 3rem;
+	line-height: 3rem;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: rgba(127,110,127,.6);
+}
+/* 顶部导航栏li */
+.nav-ul li {
+	display: inline-block;
+	width: 20%;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+/* 超链接 */
+.nav-ul li a {
+	display: inline-block;
+	height: 3rem;
+	color: seashell;
+}
+/* 鼠标悬停菜单样式 */
+.nav-ul li a:hover {
+	border-bottom: 0.2rem solid moccasin;
+	text-decoration: none;
+	color: #2C3E50;
+}
+/* 点击后样式 */
+.nav-ul-li-a-visited{
+	border-bottom: 0.2rem solid moccasin;
+	color: #ccc;
+}
+@media screen and min-width( {
+	
+}
