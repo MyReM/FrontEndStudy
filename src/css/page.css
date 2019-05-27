@@ -8,14 +8,18 @@ body {
 .containerp {
 	width: 100%;
 	position: relative;
-	padding: 0;
+	padding:0;
 	margin: 0;
 }
 /* 顶部导航栏nav */
 .navbar {
 	padding: 0 0 0 0;
-	width: 100%;
+  width: 100%;
+	min-width: 64rem;
 	z-index: 999;
+  position: fixed;
+  background: rgba(0,0,0,.7);
+  box-shadow: 0 0 10px #2C3E50;
 }
 /* 顶部导航栏div */
 .heade_menu {
@@ -27,12 +31,10 @@ body {
 .nav-ul {
 	display: table;
 	width: 100%;
-	height: 3rem;
 	line-height: 3rem;
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	background-color: rgba(0,0,0,.5);
 }
 /* 顶部导航栏li */
 .nav-ul li {
@@ -46,24 +48,47 @@ body {
 .nav-ul li a {
 	display: inline-block;
 	height: 3rem;
-	color: seashell;
+	color: white;
+  font-size: 14px;
 }
 /* 鼠标悬停菜单样式 */
 .nav-ul li a:hover {
-	border-bottom: 0.2rem solid moccasin;
+	border-bottom: 2px solid white;
 	text-decoration: none;
-	color: lightblue;
+	color: #42B983;
 }
 /* 点击后样式 */
 .nav-ul-li-a-visited{
-	border-bottom: 0.2rem solid moccasin;
+	border-bottom: 2px solid white;
 	color: #ccc;
 }
 
 /* 页尾 */
 footer {
   width: 100%;
-  height: 12rem;
-  background: rgba(0,24,165,0.5);
+  position: relative;
+  bottom: 0;
   margin: 0;
+  background: #333;
+  color: wheat;
+}
+footer div:first-child {
+  height: 16rem;
+}
+footer ul li {
+  list-style: none;
+  line-height: 2.5rem;
+}
+footer ul li a {
+  text-decoration: none;
+  color: goldenrod;
+}
+footer .authormsg {
+  height:4rem;
+  line-height: 4rem;
+  vertical-align: middle;
+  border-top: 1px solid;
+}
+footer .authormsg a {
+  color: goldenrod;
 }
