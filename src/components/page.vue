@@ -11,6 +11,7 @@
 	      </ul>
 	    </div>
 	  </nav>
+    <div style="width: 100%;height: 3rem;"></div>
 	  <div class="containerp">
 	     <router-view></router-view>
 	  </div>

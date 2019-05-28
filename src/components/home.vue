@@ -26,7 +26,7 @@
         <li></li>
       </ul>
     </div>
-    <div v-for="val in contentmsg" :key="val"> 
+    <div v-for="(val,index) in contentmsg" :key="index"> 
       <div class="little-title">
         <span>{{val.title}}</span>
       </div>
@@ -34,6 +34,7 @@
         <div class="photomsg-content" v-for="photomsg in val.photomsgs" :key="photomsg.photoName">
           <a href="#">
             <img :src="photomsg.photoName"/>
+            <div class="bgsize"></div>
           </a>
           <div class="usr-oper">
             <ul>
@@ -118,6 +119,12 @@
           })
           _this.photoIndex = $(this).index();
           $(".photo-show a").eq(_this.photoIndex).fadeIn(1000).siblings().fadeOut(1000)
+          _this.interval = setInterval(_this.photoShow, 5000)
+        })
+        // 鼠标悬停在图片时清除定时器离开时设置定时器
+        $(".photo-show-parent .photo-show a img").hover(function() {
+          clearInterval(_this.interval)
+        }, function() {
           _this.interval = setInterval(_this.photoShow, 5000)
         })
       },
